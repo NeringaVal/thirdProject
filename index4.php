@@ -30,7 +30,7 @@ else {
         </style>
 </head>
 <body>
-    <h1>Užduotis 7.04 </h1>
+    <h1>Užduotis 7.03 </h1>
     <a href="./index.php">tas pats page</a>
     <form action="" method="get">
         spalva: <input type="text" name="color">

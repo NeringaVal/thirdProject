@@ -1,7 +1,7 @@
 <?php
 print_r($_GET);
 
-if(isset($_GET['color']) && $_GET['color']!=""){
+if(isset($_GET['color'])){
     $backgroundColorPage=$_GET['color'];
 
   
@@ -30,11 +30,8 @@ else {
         </style>
 </head>
 <body>
-    <h1>Užduotis 7.04 </h1>
+    <h1>Užduotis 7.02 </h1>
     <a href="./index.php">tas pats page</a>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
-    </form>
+    
 </body>
 </html>
