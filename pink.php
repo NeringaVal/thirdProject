@@ -1,6 +1,12 @@
+<?php
+
+echo $_SERVER['REQUEST_METHOD'];
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +17,15 @@
             background-color: pink;
             color: antiquewhite;
         }
-
         a {
             color: azure;
-        }
-    </style>
+        }        
+        </style>
 </head>
-
 <body>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
+    <h1>Užduotis 7.08 PINK </h1>
+    <form action="./rose.php" method="post">
+        <button type="submit">GO TO ROSE</button>
     </form>
 </body>
-
 </html>

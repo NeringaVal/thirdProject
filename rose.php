@@ -1,6 +1,18 @@
+<?php
+
+echo $_SERVER['REQUEST_METHOD'];
+
+
+if($_SERVER['REQUEST_METHOD'] == "GET")
+{
+    header("location: ./pink.php");
+    die;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +20,16 @@
     <title>Document</title>
     <style>
         body {
-            background-color: pink;
+            background-color: rgb(209, 121, 121) ;
             color: antiquewhite;
         }
-
         a {
             color: azure;
-        }
-    </style>
+        }        
+        </style>
 </head>
-
 <body>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
-    </form>
+    <h1>Užduotis 7.08 ROSE </h1>
+    
 </body>
-
 </html>
