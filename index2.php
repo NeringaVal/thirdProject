@@ -1,7 +1,7 @@
 <?php
 print_r($_GET);
 
-if(isset($_GET['color'])){
+if(isset($_GET['color'])&&$_GET['color']==1){
     $backgroundColorPage="red";
 
   
@@ -31,7 +31,7 @@ else {
 </head>
 <body>
     <h1>Užduotis 7.01 </h1>
-    <a href="./index.php">tas pats page</a>
-    <a href="./index.php?color=1">tas pats page su kintamuoju</a>
+    <a href="./index2.php">tas pats page</a>
+    <a href="./index2.php?color=1">tas pats page su kintamuoju</a>
 </body>
 </html>

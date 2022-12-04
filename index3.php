@@ -31,7 +31,7 @@ else {
 </head>
 <body>
     <h1>Užduotis 7.02 </h1>
-    <a href="./index.php">tas pats page</a>
+    <a href="./index3.php">tas pats page</a>
     
 </body>
 </html>

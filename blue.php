@@ -1,14 +1,13 @@
 <?php
 print_r($_GET);
+if(isset($_GET['var'])){
+    header("location: ./red.php");
+    die;
 
-if(isset($_GET['color']) && $_GET['color']!=""){
-    $backgroundColorPage=$_GET['color'];
+}
 
-  
-}
-else {
-    $backgroundColorPage="black";
-}
+
+
 
 ?>
 
@@ -21,7 +20,7 @@ else {
     <title>Document</title>
     <style>
         body {
-            background-color: <?php echo $backgroundColorPage; ?>;
+            background-color: blue;
             color: antiquewhite;
         }
         a {
@@ -30,11 +29,8 @@ else {
         </style>
 </head>
 <body>
-    <h1>Užduotis 7.03 </h1>
-    <a href="./index4.php">tas pats page</a>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
-    </form>
+    <h1>Užduotis 7.05 Blue</h1>
+    <a href="./blue.php/?var">tas pats page</a>
+    
 </body>
 </html>
