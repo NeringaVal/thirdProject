@@ -1,6 +1,11 @@
+<?php
+print_r($_GET);
+header("location: ./orange.php");
+die;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +16,13 @@
             background-color: rgb(209, 190, 17);
             color: antiquewhite;
         }
-
         a {
             color: azure;
-        }
-    </style>
+        }        
+        </style>
 </head>
-
 <body>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
-    </form>
+    <h1>Užduotis 7.04 puslapis Lemon</h1>
+    
 </body>
-
 </html>

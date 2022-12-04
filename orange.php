@@ -1,6 +1,10 @@
+<?php
+print_r($_GET);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +12,16 @@
     <title>Document</title>
     <style>
         body {
-            background-color: rgb(209, 190, 17);
+            background-color: orange;
             color: antiquewhite;
         }
-
         a {
             color: azure;
-        }
-    </style>
+        }        
+        </style>
 </head>
-
 <body>
-    <form action="" method="get">
-        spalva: <input type="text" name="color">
-        <button type="submit">confirm color</button>
-    </form>
+    <h1>Užduotis 7.04 puslapis Orange</h1>
+    
 </body>
-
 </html>
