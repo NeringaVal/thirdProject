@@ -28,7 +28,7 @@ if(isset($_GET['var'])){
 </head>
 <body>
     <h1>Užduotis 7.05 Red</h1>
-    <a href="./red.php/?var">tas pats page</a>
+    <a href="?var">tas pats page</a>
     
 </body>
 </html>
