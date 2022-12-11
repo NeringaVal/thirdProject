@@ -1,8 +1,8 @@
 <?php
 print_r($_POST);
-
-$letter = array('A'. 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J');
-if(isset($_POST['confirm'])){
+$rnd = rand(3, 10);
+$letter = array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J');
+if(isset($_POST['submit_form'])){
     $backgroundColorPage="white";
 
   
@@ -34,13 +34,13 @@ else {
     <h1>Užduotis 7.09 </h1>
     
     <form action="" method="post">
-        <?php for ($i=0; $i < rand(3, 10); $i++) { 
+        <?php for ($i=0; $i < $rnd; $i++) { 
             ?>
             
             <label for="<?php $i?>"><?php echo $letter[$i] ?></label>
             <input type="checkbox" name="varneles[]" id="<?php $i?>">
         <?php } ?>
-        <button type="submit">confirm</button>
+        <button type="submit" name="submit_form">confirm</button>
     </form>
 </body>
 </html>
